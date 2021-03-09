@@ -1,0 +1,17 @@
+{
+    "signup": {
+        "name": "Swetha",
+        "email": "swetha@letcode.in",
+        "password": "pass12345",
+        "invalid_email": "Error: The email address is badly formatted.",
+        "invalid_password": "Error: The password must be 6 characters long or more."
+    },
+    "login": {
+        "email": "swethaabc@gmail.com",
+        "password": "Pass123$",
+        "wrong_password": "pass",
+        "welcome_message": "Welcome Swetha",
+        "invalid_password": "Error: The password is invalid or the user does not have a password.",
+        "invalid_email": "Error: There is no user record corresponding to this identifier. The user may have been deleted."
+    }
+}

@@ -1,10 +1,10 @@
 import { Given,When, Then } from "@cucumber/cucumber";
-import { calculator } from "../pageObjects/calculator";
+import { calculatorPage } from "../pageObjects/calculatorPage";
 import { browser } from "protractor";
 import { angularHomePage } from "../pageObjects/angularHomePage";
 import chai from "chai";
 var expect = chai.expect;
-let calc = new calculator();
+let calc = new calculatorPage();
 let ah = new angularHomePage();
         
   Given('I will navigate to Calc Site', async ()=> {

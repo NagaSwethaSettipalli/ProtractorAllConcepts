@@ -7,6 +7,7 @@
     "test": "protractor JSFiles/configuration.js",
     "pretest": "tsc",
     "cucumbertest": "protractor JSFiles/cucumberconfig.js",
+    "letCodetest": "protractor JSFiles/letCodeConfig.js",
     "protractor": "./node_modules/protractor/built/cli.js",
     "webdriver-update": "./node_modules/.bin/webdriver-manager update"
   },
@@ -19,7 +20,6 @@
     "@types/node": "12.12.2",
     "chai": "4.3.0",
     "chai-as-promised": "7.1.1",
-    "cucumber": "^7.0.0-rc.0",
     "cucumber-html-reporter": "^5.3.0",
     "jasmine": "^3.6.4",
     "protractor": "^7.0.0",
